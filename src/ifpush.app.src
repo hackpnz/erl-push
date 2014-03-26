@@ -1,0 +1,10 @@
+{application, ifpush,
+ [
+  {description, "Send pushes to happy iFunny users"},
+  {vsn, git},
+  {modules, [ifpush, ifpush_sender, ifpush_worker_pool, mylists]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]}
+ ]}.

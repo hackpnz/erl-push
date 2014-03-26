@@ -1,0 +1,12 @@
+*.beam
+*~
+*.orig
+.*.swp
+rt.work
+.test
+dialyzer_warnings
+.eunit
+deps
+.rebar/*
+ebin
+ttb_last_config
